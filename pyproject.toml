@@ -7,7 +7,7 @@ name = "python2binary"
 authors = [
   { name="FauzanAriyatmoko", email="fauzan.ariyatmoko@gmail.com" },
 ]
-version = "0.1.0"
+version = "0.1.1"
 description = "Bundle a Python project into a self-contained native binary"
 readme = "README.md"
 requires-python = ">=3.8"
