@@ -10,7 +10,7 @@ jobs:
     name: Build and publish to PyPI
     runs-on: ubuntu-latest
     environment:
-      name: pypi
+      name: pypi2binary
       url: https://pypi.org/p/python2binary
     permissions:
       id-token: write # Mandatory for OIDC
