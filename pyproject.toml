@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python2binary"
+authors = [
+  { name="FauzanAriyatmoko", email="fauzan.ariyatmoko@gmail.com" },
+]
+version = "0.1.0"
+description = "Bundle a Python project into a self-contained native binary"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+Homepage = "https://github.com/FauzanAriyatmoko/python2binary"
+
+[project.scripts]
+python2binary = "python2binary.main:main"
+
+[tool.setuptools]
+# Map the current directory to the 'python2binary' package
+package-dir = {"python2binary" = "."}
+packages = ["python2binary", "python2binary.infrastructure", "python2binary.interfaces", "python2binary.schemas"]

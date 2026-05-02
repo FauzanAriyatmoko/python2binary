@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.binary/
+build/
+dist/
+*.egg-info/
+.installed.cfg
+.pip-internal-config
+.editable_metadata
+.binary/
+
+# Project specific
+sample_project/
+build/
+*.pyz
+*.h
+*_launcher.c
